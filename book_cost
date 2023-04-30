@@ -1,0 +1,17 @@
+b1_price = 400.00
+b2_price = 855.00
+b3_price = 645.00
+print("Introduction of Python Programming :",b1_price)
+print("Python Libraries Cookbook :",b2_price)
+print("Data Science in Python :",b3_price)
+d = 250.00
+n1 = int(input("No.of Introduction of Python Programming books purchased:"))
+n2 = int(input("No.of Python Libraries Cookbook books purchased:"))
+n3 = int(input("No.of Data Science in Python books purchased:"))
+print("Delivary_Charges:",d)
+Sub_total = ((b1_price * n1) + (b2_price * n2) + (b3_price * n3))
+print("Subtotal:",Sub_total)
+print("Gst:12%")
+Total = Sub_total +(Sub_total*0.12) + d
+print("Total_PRICE",Total)
+
