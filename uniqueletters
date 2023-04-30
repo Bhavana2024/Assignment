@@ -1,0 +1,11 @@
+str = input("Enter String")
+str = str.upper()
+l=[]
+for ele in str:
+    if ele not in l:
+        l.append(ele)
+for ele in l:
+    if ele != l[-1]:
+        print(ele)
+    else:
+        print(l)
